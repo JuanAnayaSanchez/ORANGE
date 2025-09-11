@@ -16,6 +16,13 @@
   font-style: semi-bold;
 }
 
+@font-face {
+  font-family: 'posterama-regular';
+  src: url('assets/fonts/posterama-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: regular;
+}
+
 html,
 body {
   height: 100%;
