@@ -2,10 +2,11 @@ import { Component, AfterViewInit, OnDestroy, ElementRef, ViewChild } from '@ang
 import { RouterOutlet } from '@angular/router';
 import {MainMenuComponent} from './shared/main-menu/main-menu.component'
 import Typed from 'typed.js';
+import {FooterComponent} from './shared/footer/footer.component'
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MainMenuComponent],
+  imports: [RouterOutlet, MainMenuComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
