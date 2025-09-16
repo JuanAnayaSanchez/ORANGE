@@ -18,11 +18,13 @@ export class MainMenuComponent implements OnInit {
     this.items = [
       {
         label: 'Nosotros',
-        icon: 'pi pi-users'
+        icon: 'pi pi-users',
+        routerLink: '/app'
       },
       {
         label: 'Universo',
-        icon: 'pi pi-globe'
+        icon: 'pi pi-globe',
+        routerLink: '/universo' 
       },
       {
         label: 'Portafolio',
