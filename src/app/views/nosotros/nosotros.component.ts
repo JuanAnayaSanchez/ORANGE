@@ -1,10 +1,11 @@
 import { Component, AfterViewInit, OnDestroy, ElementRef, ViewChild } from '@angular/core';
 import {MainMenuComponent} from '../../shared/main-menu/main-menu.component'
 import Typed from 'typed.js';
+import {FooterComponent} from '../../shared/footer/footer.component'
 
 @Component({
   selector: 'app-nosotros',
-  imports: [MainMenuComponent],
+  imports: [MainMenuComponent, FooterComponent],
   templateUrl: './nosotros.component.html',
   styleUrl: './nosotros.component.css'
 })

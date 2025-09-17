@@ -1,32 +1,26 @@
 <!-- Splash Screen -->
-<div 
-  class="splash-screen" 
-  [class.hidden]="!showSplash"
-  [class.fade-out]="isAnimatingOut">
+<div class="splash-screen" [class.hidden]="!showSplash" [class.fade-out]="isAnimatingOut">
   <div class="splash-logo-container">
-    <img 
-      class="splash-logo" 
-      src="/assets/img/ORANGE-LOGO.png" 
-      alt="logo">
+    <img class="splash-logo" src="/assets/img/ORANGE-LOGO.png" alt="logo">
   </div>
 </div>
 
 <!-- Header Normal -->
-   <div class="fixed flex top-0 left-0 right-0 z-50 m-[1.3vw]">
-    <div class="flex items-center justify-center w-[25%]">
-      <div class="logo-container">
-        <img class="menu-logo" src="/assets/img/ORANGE-LOGO.png" alt="logo">
-      </div>
-    </div>
-    <div class="flex items-center justify-center w-[50%]">
-      <p-menubar class="flex" [model]="items" />
-    </div>
-    <div class="flex items-center justify-center w-[25%] gap-4">
-      <div class="logo-container-social">
-        <img class="menu-logo-what h-[1.6vw]" src="/assets/img/whatsapp-logo.png" alt="logo-whatsapp">
-      </div>
-      <div class="logo-container-social">
-        <img class="menu-logo-what h-[1.6vw]" src="/assets/img/instagram-logo.png" alt="logo-instagram">
-      </div>
+<div class="fixed flex top-0 left-0 right-0 z-50 m-[1.3vw]">
+  <div class="flex items-center justify-center w-[25%]">
+    <div class="logo-container">
+      <img class="menu-logo" src="/assets/img/ORANGE-LOGO.png" alt="logo">
     </div>
   </div>
+  <div class="flex items-center justify-center w-[50%]">
+    <p-menubar class="flex" [model]="items" />
+  </div>
+  <div class="flex items-center justify-center w-[25%] gap-4">
+    <div class="logo-container-social">
+      <img class="menu-logo-what h-[1.6vw]" src="/assets/img/whatsapp-logo.png" alt="logo-whatsapp">
+    </div>
+    <div class="logo-container-social">
+      <img class="menu-logo-what h-[1.6vw]" src="/assets/img/instagram-logo.png" alt="logo-instagram">
+    </div>
+  </div>
+</div>
