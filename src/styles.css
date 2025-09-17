@@ -36,8 +36,6 @@ body {
 body {
   background-color: #FDD366;
   opacity: 0.9;
-  background: radial-gradient(circle, transparent 20%, #FDD366 20%, #FDD366 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #FDD366 20%, #FDD366 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#FF9552 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #FF9552 0.8px, #FDD366 0.8px) -0.4px 0;
-  background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
 }
 
 /* Menu */
