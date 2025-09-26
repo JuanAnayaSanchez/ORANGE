@@ -2,10 +2,11 @@ import { Component, AfterViewInit, OnDestroy, ElementRef, ViewChild } from '@ang
 import {MainMenuComponent} from '../../shared/main-menu/main-menu.component'
 import Typed from 'typed.js';
 import {FooterComponent} from '../../shared/footer/footer.component'
+import { ScrollingComponent } from '../../shared/scrolling/scrolling.component';
 
 @Component({
   selector: 'app-nosotros',
-  imports: [MainMenuComponent, FooterComponent],
+  imports: [MainMenuComponent, FooterComponent, ScrollingComponent],
   templateUrl: './nosotros.component.html',
   styleUrl: './nosotros.component.css'
 })
