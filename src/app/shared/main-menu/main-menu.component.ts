@@ -28,7 +28,8 @@ export class MainMenuComponent implements OnInit {
       },
       {
         label: 'Portafolio',
-        icon: 'pi pi-briefcase'
+        icon: 'pi pi-briefcase',
+        routerLink: '/portafolio' 
       },
       {
         label: 'Proyectos',

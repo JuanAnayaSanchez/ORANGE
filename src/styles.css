@@ -5,7 +5,19 @@ body{
   cursor: url('assets/img/cursor.png'), auto;
 }
 
+:root {
+  /*--orange-primary: #f2ad36;*/
+  --orange-primary: #fe6402;
+}
+
 /* Fonts */
+@font-face {
+  font-family: 'montserrat-light';
+  src: url('assets/fonts/Montserrat-Light.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'posterama-light';
   src: url('assets/fonts/posterama-light.woff2') format('woff2');
@@ -41,7 +53,7 @@ body {
 /* Menu */
 
 .p-menubar-item-label {
-  color: #f2ad36 !important;
+  color: var(--orange-primary) !important;
   font-family: 'posterama-semibold', Helvetica, sans-serif;
   font-size: 0.7vw;
 }
