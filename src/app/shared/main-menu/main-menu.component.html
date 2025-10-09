@@ -7,20 +7,24 @@
 
 <!-- Header Normal -->
 <div class="fixed flex top-0 left-0 right-0 z-50 m-[1.3vw]">
-  <div class="flex items-center justify-center w-[25%]">
-    <div class="logo-container">
-      <img class="menu-logo" src="/assets/img/ORANGE-LOGO.png" alt="logo">
+  <div class="flex items-center justify-center max-mobile:w-[40%] w-[25%]">
+    <div class="logo-container pt-[0.5vw] pb-[0.5vw] pl-[1vw] pr-[1vw] 
+    max-mobile:pt-[4vw] max-mobile:pb-[4vw] max-mobile:pl-[1.5vw] max-mobile:pr-[1.5vw]">
+      <img class="h-[1.3vw] max-mobile:h-[4vw]" src="/assets/img/ORANGE-LOGO.png" alt="logo">
     </div>
   </div>
-  <div class="flex items-center justify-center w-[50%]">
-    <p-menubar class="flex" [model]="items" />
+  <div class="flex items-center justify-center max-mobile:w-[20%] w-[50%]">
+    <p-menubar class="flex justify-center" [model]="items" />
   </div>
-  <div class="flex items-center justify-center w-[25%] gap-4">
-    <div class="logo-container-social">
-      <img class="menu-logo-what h-[1.6vw]" src="/assets/img/whatsapp-logo.png" alt="logo-whatsapp">
+  <div class="flex items-center justify-center max-mobile:w-[40%] w-[25%] gap-4">
+    <div
+      class="logo-container-social pt-[0.4vw] pb-[0.4vw] pl-[0.4vw] pr-[0.4vw] max-mobile:pt-[1.5vw] max-mobile:pb-[1.5vw] max-mobile:pl-[1.5vw] max-mobile:pr-[1.5vw]">
+      <img class="menu-logo-what h-[1.6vw] max-mobile:h-[8vw]" src="/assets/img/whatsapp-logo.png" alt="logo-whatsapp">
     </div>
-    <div class="logo-container-social">
-      <img class="menu-logo-what h-[1.6vw]" src="/assets/img/instagram-logo.png" alt="logo-instagram">
+    <div
+      class="logo-container-social pt-[0.4vw] pb-[0.4vw] pl-[0.4vw] pr-[0.4vw] max-mobile:pt-[1.5vw] max-mobile:pb-[1.5vw] max-mobile:pl-[1.5vw] max-mobile:pr-[1.5vw]">
+      <img class="menu-logo-what h-[1.6vw] max-mobile:h-[8vw]" src="/assets/img/instagram-logo.png"
+        alt="logo-instagram">
     </div>
   </div>
 </div>
