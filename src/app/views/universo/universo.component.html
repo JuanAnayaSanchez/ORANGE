@@ -27,7 +27,8 @@
         <div class="atletas-2 flex justify-end">
             <div
                 class="video-container h-[33vw] max-mobile:h-[128vw] w-[80%] max-mobile:w-[100%] rounded-[0.5rem] overflow-hidden">
-                <video src="/assets/videos/Atletas.webm" autoplay muted loop playsinline
+                <video src="/assets/videos/Atletas.webm" [attr.autoplay]="shouldAutoplay ? true : null" muted loop
+                    playsinline [attr.controls]="!shouldAutoplay ? true : null"
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
@@ -57,7 +58,8 @@
         <div class="atletas-2 flex justify-start">
             <div
                 class="video-container h-[33vw] max-mobile:h-[128vw] w-[80%] max-mobile:w-[100%] rounded-[0.5rem] overflow-hidden">
-                <video src="/assets/videos/Marcas.webm" autoplay muted loop playsinline
+                <video src="/assets/videos/Marcas.webm" [attr.autoplay]="shouldAutoplay ? true : null" muted loop
+                    playsinline [attr.controls]="!shouldAutoplay ? true : null"
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
@@ -87,7 +89,8 @@
         <div class="atletas-2 flex justify-end">
             <div
                 class="video-container h-[33vw] max-mobile:h-[128vw] w-[80%] max-mobile:w-[100%] rounded-[0.5rem] overflow-hidden">
-                <video src="/assets/videos/Clubes.webm" autoplay muted loop playsinline
+                <video src="/assets/videos/Clubes.webm" [attr.autoplay]="shouldAutoplay ? true : null" muted loop
+                    playsinline [attr.controls]="!shouldAutoplay ? true : null"
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
